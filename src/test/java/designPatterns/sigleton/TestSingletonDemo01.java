@@ -1,6 +1,7 @@
 package designPatterns.sigleton;
 
 /**
+ * 饿汉式单例模式测试
  * @ClassName TestSingletonDemo01
  * @Description: TODO
  * @Author huanglg

@@ -14,7 +14,7 @@ public class SingletonDemo01 {
 
     private SingletonDemo01(){}
 
-    public static SingletonDemo01 getInstance(){
+    public static synchronized SingletonDemo01 getInstance(){
         return instance;
     }
 }
